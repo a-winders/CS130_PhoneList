@@ -2,16 +2,19 @@ import java.util.Scanner;
 
 public class Student {
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
-          // Creates Scanner object 
-    Scanner scan = new Scanner(System.in);
+    // Instance fields
+    int GPA;
+    String firstName, lastName;
 
-    // Creates new String array
-    String [5] arr;
+    // Creates Scanner object 
+    Scanner input = new Scanner(System.in);
 
-    System.out.println("Please enter your first name: ");
-    }
+    System.out.println("Please enter your GPA: ");
+    GPA = input.nextInt();
+    
+    } // ends main
 
   
-}
+} // ends Student class
